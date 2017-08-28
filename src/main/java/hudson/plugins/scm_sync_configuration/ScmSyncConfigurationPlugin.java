@@ -64,7 +64,6 @@ public class ScmSyncConfigurationPlugin extends Plugin{
         new JenkinsConfigScmSyncStrategy(),
         new BasicPluginsConfigScmSyncStrategy(),
         new JobConfigScmSyncStrategy(),
-        new UserConfigScmSyncStrategy(),
         new ManualIncludesScmSyncStrategy()
     };
 
